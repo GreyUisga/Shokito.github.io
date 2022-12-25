@@ -1,0 +1,157 @@
+*,
+a {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-style: italic;
+}
+
+body {
+	padding: 20px;
+	background: rgb(245, 255, 250);
+}
+
+table {
+	text-align: center;
+}
+
+/* Header/Blog Title */
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: papayawhip;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+.leftcolumn2 {
+	float: left;
+	width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+	background-color: papayawhip;
+	width: 100%;
+	padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: papayawhip;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn,
+	.rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+#butterflies {
+	background-image: url(Fotos/butterflies.png), url(Fotos/butterflies.png),
+		url(Fotos/butterflies.png);
+	background-size: 9%;
+	background-position-x: 88%, 95%, 100%;
+	background-position-y: 100%, 45%, 90%;
+	background-repeat: no-repeat;
+}
+
+#study {
+	background-image: url(Fotos/pencil.png), url(Fotos/cat.png),
+		url(Fotos/parchment.png);
+	background-size: 5%, 8%, 10%;
+	background-position-x: 13%, 37%, 95%;
+	background-position-y: 48%, 2%, 100%;
+	background-repeat: no-repeat;
+}
+
+#caracteristicas {
+	background-image: url(Fotos/angry.png), url(Fotos/catphone.png),
+		url(Fotos/heart.png), url(Fotos/neeko.png), url(Fotos/sandwich.png),
+		url(Fotos/sushi.png);
+	background-size: 10%, 8%, 10%, 30%, 10%, 15%;
+	background-position-x: 94%, 40%, 94%, 70%, 37%, 25%;
+	background-position-y: 20%, 40%, 80%, 50%, 2%, 25%;
+	background-repeat: no-repeat;
+}
+
+#razones {
+	background-image: url(Fotos/avocado.png), url(Fotos/ClipartKey_532425.png),
+		url(Fotos/distraction.png), url(Fotos/girl.png), url(Fotos/message.png),
+		url(Fotos/notification.png), url(Fotos/sparkle.png);
+	background-size: 10%, 13%, 10%, 10%, 9%, 7%, 4%;
+	background-position-x: 55%, 72%, 55%, 35%, 43%, 30%, 42%;
+	background-position-y: 55%, 2%, 85%, 54%, 87%, 85%, 44%;
+	background-repeat: no-repeat;
+}
+
+#actividades {
+	background-image: url(Fotos/gossip.png), url(Fotos/happy.png),
+		url(Fotos/pelicula.png);
+	background-size: 10%, 10%, 10%;
+	background-position-x: 68%, 43%, 55%;
+	background-position-y: 65%, 65%, 65%;
+	background-repeat: no-repeat;
+}
+
+#head {
+	background-image: url(Fotos/down-right-arrow.png), url(Fotos/sun.png),
+		url(Fotos/love.png), url(Fotos/hearts.png), url(Fotos/panda.png),
+		url(Fotos/rainbow.png);
+	background-size: 10%, 10%, 9%, 7%, 6%, 7%;
+	background-position-x: 8%, 98%, 70%, 25%, 58%, 35%;
+	background-position-y: 0%, 5%, 0%, 95%, 100%, 0%;
+	background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+a {
+	color: lightsalmon;
+}
+
+a {
+	color: papayawhip;
+}
+
+a:hover {
+	background-color: lightcoral;
+}
+
+.nota {
+	font-size: smaller;
+	font-style: italic;
+}
