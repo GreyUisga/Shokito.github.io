@@ -80,8 +80,8 @@ table {
 }
 
 #butterflies {
-	background-image: url(Fotos/butterflies.png), url(Fotos/butterflies.png),
-		url(Fotos/butterflies.png);
+	background-image: url(/Fotos/butterflies.png), url(/Fotos/butterflies.png),
+		url(/Fotos/butterflies.png);
 	background-size: 9%;
 	background-position-x: 88%, 95%, 100%;
 	background-position-y: 100%, 45%, 90%;
